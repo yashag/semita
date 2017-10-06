@@ -1,0 +1,159 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+
+#chart-container {
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    height: 86%;
+    width: calc(100% - 24px);
+    overflow: auto;
+
+    background-image: url('../assets/images/semita-background.png');
+    background-size: 100% 100%;
+    background-clip: fixed;
+
+    border: 2px dashed #aaa;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
+#chart-container .orgchart {
+    width: 100%;
+    height: 100%;
+
+    background-image: none;
+    background-size: unset;
+
+    font-family: "Trebuchet MS", Helvetica, Verdana, sans-serif;
+
+    cursor: -webkit-grab;
+}
+
+#chart-container .orgchart .node:hover {
+    background-color: #cef4ff;
+    border-radius: 3px;
+}
+
+#chart-container .orgchart .node.focused {
+    border-radius: 3px;
+}
+
+#chart-container .orgchart .node .edge {
+    display: none;
+}
+
+#chart-container .orgchart .node .title {
+    padding: 3px;
+}
+
+#chart-container .orgchart .node .content {
+    padding: 3px;
+    height: 25px;
+}
+
+#chart-container .semita-start-point > .title {
+    background: #404040;
+}
+
+#chart-container .semita-start-point > .content {
+    border-color: #404040;
+}
+
+#chart-container .semita-green > .title {
+    background: #56b16e;
+}
+
+#chart-container .semita-green > .content {
+    border-color: #56b16e;
+}
+
+#chart-container .semita-red > .title {
+    background: rgb(217,83,79);
+}
+
+#chart-container .semita-red > .content {
+    border-color: rgb(217,83,79);
+}
+
+#chart-container .semita-blue > .title {
+    background: #6b6bfd;
+}
+
+#chart-container .semita-blue > .content {
+    border-color: #6b6bfd;
+}
+
+#chart-container .semita-orange > .title {
+    background: orange;
+    color: #484848;
+}
+
+#chart-container .semita-orange > .content {
+    border-color: orange;
+}
+
+#chart-container .semita-yellow > .title {
+    background: #f9dd53;
+    color: #484848;
+}
+
+#chart-container .semita-yellow > .content {
+    border-color: #f9dd53;
+}
+
+#chart-container .semita-purple > .title {
+    background: #8d44c3;
+}
+
+#chart-container .semita-purple > .content {
+    border-color: #8d44c3;
+}
+
+#chart-container .semita-gray > .title {
+    background: #62646f;
+}
+
+#chart-container .semita-gray > .content {
+    border-color: #62646f;
+}
+
+#chart-container .semita-brown > .title {
+    background: #a24c19;
+}
+
+#chart-container .semita-brown > .content {
+    border-color: #a24c19;
+}
+
+#chart-container .semita-turquoise > .title {
+    background: #35e6b5;
+    color: #484848;
+}
+
+#chart-container .semita-turquoise > .content {
+    border-color: #35e6b5;
+}
+
+#chart-container .semita-pink > .title {
+    background: pink;
+    color: #484848;
+}
+
+#chart-container .semita-pink > .content {
+    border-color: pink;
+}

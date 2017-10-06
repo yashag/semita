@@ -1,0 +1,30 @@
+{
+  "title": "Starting point",
+  "content": "index.js",
+  "className": "semita-start-point",
+  "children": [
+    { "title": "lib/report-writer.js",
+      "content": "writeReport",
+      "children": [
+        { "title": "path", "content": "format"},
+        { "title": "fs", "content": "writeFile"}
+      ]
+    },
+    { "title": "lib/report-writer.js",
+      "content": "createReportEnvironment",
+      "children": [
+        { "title": "fse", "content": "copy"}
+      ]
+    },
+    {
+      "title": "lib/report-writer.js",
+      "content": "addMappingScript",
+      "children": [{ "title": "lib/report-writer.js", "content": "visualizeFunctionsMapping" }]
+    },
+    {
+      "title": "lib/customize-report.js",
+      "content": "colorizeBranches",
+      "children": [{ "title": "lib/customize-report.js", "content": "applyClassToChildren" }]
+    }
+  ]
+}

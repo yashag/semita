@@ -1,0 +1,47 @@
+{
+  "name": "semita",
+  "version": "1.0.0",
+  "description": "A visual hierarchy representation tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rimraf semita-report eslint-report.html",
+    "lint": "eslint -f html lib/ test/**.spec.js > eslint-report.html",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashag/semita.git"
+  },
+  "keywords": [
+    "report",
+    "tree",
+    "hierarchy",
+    "flow",
+    "path",
+    "map",
+    "visual",
+    "node",
+    "branch",
+    "data"
+  ],
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.3.0",
+    "orgchart": "^2.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-fs": "^1.0.0",
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.1",
+    "rimraf": "^2.6.2"
+  },
+  "author": "Yasha Gootkin (https://github.com/yashag)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yashag/semita/issues"
+  },
+  "homepage": "https://github.com/yashag/semita#readme"
+}
