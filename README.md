@@ -16,7 +16,7 @@ Each branch that splits from the starting point will be colored in a different c
 In addition this tool is intended for serving as a base for other and more specific packages (like file structures pretty output).
 
 <p align="center">
-  <img alt="Semita example" src="https://raw.githubusercontent.com/yashag/semita/master/assets/images/example1.png" width="700">
+  <img alt="Semita example" src="https://raw.githubusercontent.com/yashag/semita/master/assets/images/example1.PNG" width="700">
 </p>
 
 ## Install
@@ -73,7 +73,7 @@ semita(dataToVisualize, {
 Here is the result:
 
 <p align="center">
-  <img alt="Semita usage example" src="https://raw.githubusercontent.com/yashag/semita/master/assets/images/example2.png" width="500">
+  <img alt="Semita usage example" src="https://raw.githubusercontent.com/yashag/semita/master/assets/images/example2.PNG" width="500">
 </p>
 
 ## API
