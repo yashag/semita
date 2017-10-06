@@ -84,7 +84,8 @@ Here is the result:
 #### Params:
 * data - The data should be a hierarchical json where each node includes a `title` and a `content` property.
 In addition each node can have a property called `children` which is essentially an array of child nodes.
-___Important___ : It is recommended for the first node to have the follow key-value pairing
+
+___Important___ : It is recommended for the first node to have the following key-value pairing:
 ```js
   "className": "semita-start-point",
 ```
